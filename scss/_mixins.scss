@@ -1,0 +1,13 @@
+@mixin container {
+    max-width: 1166px;
+    margin: 0 auto;
+}
+@mixin myh{
+    color: #000;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 28px;
+}
