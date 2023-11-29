@@ -1,3 +1,6 @@
+body{
+    background-color: #F1F1F1;;
+}
 header{
     height: 80px;
     padding-top: 21px;
@@ -25,10 +28,58 @@ header{
     margin-bottom: 57px;
     .container{
         @include myco;
+
         h2{
-            @include myh
+            @include myh;
         }
+        div{
+            display: flex;
+            justify-content: space-between;
+            .card {
+                width: 362px;
+                height: 357px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                background-color: #FFF;
+                border: 2px dotted violet;
+                div{
+                    width: 362px;
+                    height: 186px;
+                    img{
+                        border-radius: 5px 5px 0px 0px;
+                    }
+                }
+    
+                    p{
+                        color: #8A8787;
+                        font-family: Roboto, sans-serif;
+                        font-size: 10px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 30px;    
+                     }
+                    div{
+                        display: flex;
+                        align-items: flex-end;
+                        margin-right: 87px;
+                        margin-bottom: 41px;
+                        h6{
+                            color: #8A8787;
+                            font-family: Roboto, sans-serif;
+                            font-size: 10px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            margin-left: 11px;
+                        }
+                    }
+            }
+            
+        }
+       
     } 
+    
     
 }
 
@@ -36,41 +87,81 @@ header{
     margin-bottom: 36px;
     .container{
         @include myco;
-    .s2c{ 
-        display: flex;
-        justify-content: space-between;
-            h2{
-                 @include myh;
-                 .img1{
-                    display: flex;
-                    flex-direction: column;
-                    gap: 42px;
-                    div{
-                        width: 758px;
-                        height: 430px;
-                        h3{
-                            display: flex;
-                            justify-content: center;
-                        }
-                }
-            }
+        h2{
+            @include myh;
+        }
+        div{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            // border: 2px dotted green;
             .img1{
                 display: flex;
                 flex-direction: column;
-                gap: 42px;
-                div{
-                    width: 758px;
-                    height: 430px;
-                    h3{
+                 gap: 42px;
+                    div{
+                        width: 758px;
+                        height: 430px;
                         display: flex;
-                        justify-content: center;
-                    }
+                        // justify-content: center;
+                        // align-items: center;
+                        // border: 2px dotted red;
+                        h3{
+                            color: #FFF;
+                            color: black;
+                            font-family: Roboto, sans-serif;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height:normal;                            
+                        }
+                }
+            }
+            .img2{
+                display: flex;
+                flex-direction: column;
+                // display: none;
+                img{
+                    margin-bottom: 98px;
+                }
             }
         }
-
     }
     }
         
-}
 
 
+
+
+footer{
+        background-color: #243043;
+        padding: 59px 137px;
+       .container{
+        @include myco;
+        div{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            max-width: 370px;
+            // border: 1px solid red;
+            li{
+                color: #818687;
+                font-family: Roboto, sans-serif;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                margin-bottom: 14px;
+            }
+        }
+        h3{
+            color: #FFF;
+        font-family: Roboto, sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        // border: 1px solid red;
+
+        }
+       }
+    }

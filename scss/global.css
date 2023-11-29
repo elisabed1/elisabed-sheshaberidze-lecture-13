@@ -60,6 +60,10 @@ a {
   box-sizing: border-box;
 }
 
+body {
+  background-color: #F1F1F1;
+}
+
 header {
   height: 80px;
   padding-top: 21px;
@@ -99,6 +103,49 @@ header .container nav a {
   line-height: normal;
   margin-bottom: 28px;
 }
+.s1 .container div {
+  display: flex;
+  justify-content: space-between;
+}
+.s1 .container div .card {
+  width: 362px;
+  height: 357px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #FFF;
+  border: 2px dotted violet;
+}
+.s1 .container div .card div {
+  width: 362px;
+  height: 186px;
+}
+.s1 .container div .card div img {
+  border-radius: 5px 5px 0px 0px;
+}
+.s1 .container div .card p {
+  color: #8A8787;
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+.s1 .container div .card div {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 87px;
+  margin-bottom: 41px;
+}
+.s1 .container div .card div h6 {
+  color: #8A8787;
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 11px;
+}
 
 .s2 {
   margin-bottom: 36px;
@@ -107,11 +154,7 @@ header .container nav a {
   max-width: 1166px;
   margin: 0 auto;
 }
-.s2 .container .s2c {
-  display: flex;
-  justify-content: space-between;
-}
-.s2 .container .s2c h2 {
+.s2 .container h2 {
   color: #000;
   font-family: "Roboto", sans-serif;
   font-size: 24px;
@@ -120,16 +163,65 @@ header .container nav a {
   line-height: normal;
   margin-bottom: 28px;
 }
-.s2 .container .s2c .img1 {
+.s2 .container div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.s2 .container div .img1 {
   display: flex;
   flex-direction: column;
   gap: 42px;
 }
-.s2 .container .s2c .img1 div {
+.s2 .container div .img1 div {
   width: 758px;
   height: 430px;
-}
-.s2 .container .s2c .img1 div h3 {
   display: flex;
-  justify-content: center;
+}
+.s2 .container div .img1 div h3 {
+  color: #FFF;
+  color: black;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.s2 .container div .img2 {
+  display: flex;
+  flex-direction: column;
+}
+.s2 .container div .img2 img {
+  margin-bottom: 98px;
+}
+
+footer {
+  background-color: #243043;
+  padding: 59px 137px;
+}
+footer .container {
+  max-width: 1166px;
+  margin: 0 auto;
+}
+footer .container div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  max-width: 370px;
+}
+footer .container div li {
+  color: #818687;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+footer .container h3 {
+  color: #FFF;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }/*# sourceMappingURL=global.css.map */
