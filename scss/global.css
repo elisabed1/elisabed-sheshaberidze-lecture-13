@@ -121,7 +121,22 @@ header .container nav a {
 .s1 .container div .card div img {
   border-radius: 5px 5px 0px 0px;
 }
-.s1 .container div .card p {
+.s1 .container div .card div h3 {
+  color: #070707;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.s1 .container div .card div {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-right: 87px;
+  margin-bottom: 41px;
+}
+.s1 .container div .card div p {
   color: #8A8787;
   font-family: Roboto, sans-serif;
   font-size: 10px;
@@ -129,13 +144,13 @@ header .container nav a {
   font-weight: 700;
   line-height: 30px;
 }
-.s1 .container div .card div {
+.s1 .container div .card div div {
   display: flex;
-  align-items: flex-end;
-  margin-right: 87px;
-  margin-bottom: 41px;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 11px;
 }
-.s1 .container div .card div h6 {
+.s1 .container div .card div div h6 {
   color: #8A8787;
   font-family: Roboto, sans-serif;
   font-size: 10px;
@@ -143,6 +158,9 @@ header .container nav a {
   font-weight: 700;
   line-height: normal;
   margin-left: 11px;
+}
+.s1 .container div .card div div i {
+  color: grey;
 }
 
 .s2 {
