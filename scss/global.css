@@ -67,7 +67,6 @@ body {
 header {
   height: 80px;
   padding-top: 21px;
-  border: 2px dotted blue;
 }
 header .container {
   max-width: 1166px;
@@ -114,7 +113,6 @@ header .container nav a {
   flex-direction: column;
   justify-content: space-between;
   background-color: #FFF;
-  border: 2px dotted violet;
 }
 .s1 .container div .card div {
   width: 362px;

@@ -4,7 +4,6 @@ body{
 header{
     height: 80px;
     padding-top: 21px;
-    border: 2px dotted blue;
       .container{
          @include myco;
         nav{
@@ -42,7 +41,6 @@ header{
                 flex-direction: column;
                 justify-content: space-between;
                 background-color: #FFF;
-                border: 2px dotted violet;
                 div{
                     width: 362px;
                     height: 186px;
